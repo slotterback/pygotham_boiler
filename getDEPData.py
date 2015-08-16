@@ -52,7 +52,6 @@ def extractDEPDataFromSoup( soup ):
     locDataSplit2 = locDataSplit[ 1 ].split( "\xa0" )
     appAddress    = locDataSplit2[ 0 ][ 0:-1 ]
     appBoro       = locDataSplit2[2].partition( '  ')[0]
-    print( repr( locDataSplit ) )
     #check for case where BIN, Block, Lot are missing
     appBIN   = "NA"
     appBlock = "NA"
